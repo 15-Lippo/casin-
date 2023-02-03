@@ -5,3 +5,5 @@ build/
 dist/
 contracts/_Roulette.sol
 .vercel
+output
+.puclic
