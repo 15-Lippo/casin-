@@ -11,3 +11,6 @@
   "source": "/feedback/:id",
   "destination": "/api/feedback/:id"
 }
+{
+  "redirects": [{ "source": "/about", "destination": "/" }]
+}
