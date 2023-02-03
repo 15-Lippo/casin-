@@ -34,11 +34,11 @@
     "@chainlink/token": "^1.1.0",
     "@openzeppelin/contracts": "^4.1.0"
     
-    
     {
   "scripts": {
-    "build": "[casinò] build --output public"
+    "precompress": "{{ executes BEFORE the `compress` script }}",
+    "compress": "{{ run command to compress files }}",
+    "postcompress": "{{ executes AFTER `compress` script }}"
   }
 }
-  }
-}
+  
