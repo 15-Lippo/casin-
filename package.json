@@ -33,5 +33,12 @@
     "@chainlink/contracts": "^0.1.7",
     "@chainlink/token": "^1.1.0",
     "@openzeppelin/contracts": "^4.1.0"
+    
+    
+    {
+  "scripts": {
+    "build": "[casinò] build --output public"
+  }
+}
   }
 }
